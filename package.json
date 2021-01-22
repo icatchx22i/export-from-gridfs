@@ -1,0 +1,24 @@
+{
+  "name": "pd3-file-extract",
+  "version": "1.0.0",
+  "description": "a simple app to extract all files from gridfs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:watch": "tsc index.ts -w",
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gridfs": "^1.0.0",
+    "gridfs-promise": "^6.3.3",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.3"
+  }
+}
