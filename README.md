@@ -3,8 +3,8 @@ Simple script to extract from Mongos GridFS
 
 Just plug in your connection detail to the right variables: 
 1. uri = 'mongodb://localhost:27018/';
-2. dbName = '<db name>'
-3. fsBucketName = '<bucketName>'
+2. dbName = '<db name>';
+3. fsBucketName = '<bucketName>';
 4. pathToSaveTo = `<local path to save to>`;
 
 
